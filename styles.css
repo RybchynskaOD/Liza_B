@@ -68,3 +68,62 @@ footer {
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+}
+
+.team-section {
+  padding: 60px 20px;
+  background-color: #fffafc;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.2em;
+  color: #b84c74;
+  margin-bottom: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-member {
+  background-color: #ffffff;
+  border: 1px solid #f1d1da;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  margin: 10px 0 5px;
+  color: #333;
+  font-size: 1.4em;
+}
+
+.specialty {
+  font-weight: bold;
+  color: #b84c74;
+  margin-bottom: 10px;
+}
+
+.bio {
+  color: #666;
+  font-size: 0.95em;
+}
